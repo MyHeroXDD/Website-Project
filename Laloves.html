@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+        <style>
+            body{
+    background-color: rgb(243, 192, 200);
+    padding: 0;
+    margin: 0;
+
+}
+
+.img-gif{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 110px;
+}
+
+
+img{
+
+    width: 13%;
+}
+
+
+.text-respo h1 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+.btn-respo{
+
+    position: relative;
+    text-align: center;
+    height: 100px;
+    top: 100px;
+
+}
+
+.btn-respo button{
+    margin: 10px;
+    padding: 10px 35px;
+    font-size: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.btn-respo a{
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+ #green{
+    background-color: rgba(91, 240, 72, 0.849);
+    color:rgb(255, 255, 255);
+ 
+    
+}
+
+#red{
+
+    background-color: rgb(238, 98, 98);
+    color: white;
+}
+
+
+
+
+            </style>
+
+
+<body>
+    
+    <div class="img-gif">
+    <img src="Images/mocha-bear-kiss-bear-kiss.gif">
+  </div>
+
+
+    <div class="text-respo">
+    <h1>Can you be my Laloves? </h1>
+    
+    <div class="btn-respo">
+    <a id="green" href="Canyoubee2.html"> Yes </a>
+
+    <button id="red"> No </button>
+    </div>
+    </div>
+
+    <script>
+
+            function moveRandomE1(elm) {
+                elm.style.position = "absolute";
+                elm.style.top = Math.floor(Math.random() * 90 + 5) + "%";
+                elm.style.left = Math.floor(Math.random() * 90 + 5) + "%";
+            }
+
+            const moveRandom = document.querySelector("#red");
+
+            moveRandom.addEventListener("mouseenter", function(e) {
+                moveRandomE1(e.target);
+            })
+
+    </script>
+
+
+    
+</body>
+</html>
