@@ -65,7 +65,13 @@ img{
 #red{
 
     background-color: rgb(238, 98, 98);
+
+}
+
+#red a {
     color: white;
+    padding: 0px;
+    
 }
 
 
@@ -86,14 +92,14 @@ img{
 
         top: 50px;
         height: 50px;
-        margin-bottom: 30px;
-
+        margin-bottom: 50px;
     }
 
     .btn-respo{
 
         top:50px;
-        font-size: 20px;        
+        font-size: 20px;      
+
     }
 
     .btn-respo button{
@@ -108,6 +114,8 @@ img{
     }
 
 }
+
+
 
 
 
