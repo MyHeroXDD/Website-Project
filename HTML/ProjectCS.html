@@ -59,7 +59,8 @@
     <div class="contact-container">
         <h1 class="contact-style">Contact Me </h1>
         
-        <form>
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="20e02e70-cecd-4e2e-bfea-7616531f3ac8">
         <div class="form-group">
             <label for"name">Name</label>
             <input type="text" name="name" placeholder="Name" required>
@@ -74,11 +75,10 @@
             <label for"message">Message</label>
             <textarea name="message" placeholder="How can we help you?" required> </textarea>
         </div>
-
-    </form>
         
         <button type="submit">Send message</button>
-
+ </form>
+        
     </div>
     </div>
    
