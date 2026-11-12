@@ -207,20 +207,27 @@ body{
  
 }
 
-@media screen and (max-width: 768px){
-    .body{
-        overflow: hidden;
-    }
-    .main-content{
+@media screen and (max-width: 567px){
 
+    .body{
+        padding: 0px;
+        margin: 0px;
+
+
+    }
+
+    .main-content{
         display: grid;
+        margin-bottom: 0px;
+        
     }
 
     .img-pic{
         position: relative;
         width: 350px;
         right: 143px;
-        margin-top: 250px;
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
 
     .overlay{
@@ -244,8 +251,28 @@ body{
 
     }
 
-}
+    .logo-platform{
+        width: 50%;
+    }
 
+    .logo-platform a{
+        position: relative;
+        top: 60px;
+        font-size: 100px;
+        right: 750px;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+
+    .logo-platform a:hover{
+        background-color: rgb(249, 251, 252);
+
+    }
+    
+
+
+}
 
 
 /* About Section Style */
@@ -307,6 +334,59 @@ body{
     font-weight: bold;
     top: 100px;
 }
+
+@media screen and (max-width: 567px) {
+    .About-content{
+        display: flex;
+        position: relative;
+        bottom: 300px;
+        padding-top: 20px;
+        padding-bottom: 200px;
+        max-width: 550px;
+
+
+    } 
+
+    .about-section{
+        position: relative;
+        right: 90px;
+        padding-bottom: 150px;
+        
+    }
+
+    .img-smile{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 260px;
+        max-width: 350px;
+    }
+
+    .about-me{
+        
+    }
+    
+    .aboutme1{
+        position: relative;
+        font-size: 30px;
+        bottom: 320px;
+        right: 670px;
+        width: 200px;
+
+    }
+
+
+    .about-text {
+        position: relative;
+        right: 637px;
+        width: 600px;
+        max-width: 360px;
+        height: 200px;
+        font-size: 16px;
+        white-space: normal;
+        top: 450px;
+        
+    }
 
 
 .tech-stacks-content{
