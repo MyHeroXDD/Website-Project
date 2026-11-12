@@ -103,6 +103,31 @@ body{
     border-bottom: 3px solid;
 }
 
+@media screen and (max-width: 567px){
+   .header{
+    display: flex;
+    position: relative;
+    left: -70px;
+    top: -70px;
+    
+
+   }
+
+   .head-list{
+    display: grid;
+    grid-template-rows: 40px;
+    gap: 5px;
+    width: 25vw;
+    height: 20vh;
+    padding-left: 10px;
+    padding-top: 15px;
+    background-color: rgb(45, 68, 73);
+    border-radius: 20px;
+    border: 3px solid rgb(37, 109, 177);
+   }
+
+}
+
 
 
 .main-content{
@@ -181,6 +206,44 @@ body{
     box-shadow: 0 0 25px  rgb(37, 109, 177);
  
 }
+
+@media screen and (max-width: 567px){
+
+    .main-content{
+
+        display: grid;
+    }
+
+    .img-pic{
+        position: relative;
+        width: 350px;
+        right: 143px;
+        margin-top: 250px;
+    }
+
+    .overlay{
+        position: relative;
+        font-size: 32px;
+        left: 90px;
+        margin-top: 680px;
+        margin-left: -900px;
+    }
+
+    .color-text{
+        position: relative;
+        top: 70px;
+        right: 280px;
+
+    }
+    h3{
+        position: relative;
+        top: 70px;
+        font-size: 29px;
+
+    }
+
+}
+
 
 
 /* About Section Style */
