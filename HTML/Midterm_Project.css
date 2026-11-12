@@ -207,72 +207,7 @@ body{
  
 }
 
-@media screen and (max-width: 567px){
 
-    .body{
-        padding: 0px;
-        margin: 0px;
-
-
-    }
-
-    .main-content{
-        display: grid;
-        margin-bottom: 0px;
-        
-    }
-
-    .img-pic{
-        position: relative;
-        width: 350px;
-        right: 143px;
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
-
-    .overlay{
-        position: relative;
-        font-size: 32px;
-        left: 90px;
-        margin-top: 680px;
-        margin-left: -900px;
-    }
-
-    .color-text{
-        position: relative;
-        top: 70px;
-        right: 280px;
-
-    }
-    h3{
-        position: relative;
-        top: 70px;
-        font-size: 29px;
-
-    }
-
-    .logo-platform{
-        width: 50%;
-    }
-
-    .logo-platform a{
-        position: relative;
-        top: 60px;
-        font-size: 100px;
-        right: 750px;
-        border-radius: 50%;
-        height: 40px;
-        width: 40px;
-    }
-
-    .logo-platform a:hover{
-        background-color: rgb(249, 251, 252);
-
-    }
-    
-
-
-}
 
 
 /* About Section Style */
