@@ -15,76 +15,92 @@ body{
 }
 
 
-.head-Home {
+.head-Home{
     display: flex;
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     max-width: 100%;
+    width: 100%;
     gap: 10px;
-    padding: 20px 30px;
+    padding-left: 100px;
+    padding-top: 20px;
     z-index: 100;
-    box-sizing: border-box;
+
 }
 
-.header {
-    cursor: pointer;
-    padding: 10px;
-    font-size: 2rem;
-    transition: 0.5s ease;
-    white-space: nowrap;
+
+
+
+.header{
+        cursor: pointer;
+        padding: 10px;
+        font-size: 2rem;
+        transition: 0.5s ease;
+        
 }
 
-.color-text {
+.color-text{
     color: rgb(37, 109, 177);
+
 }
 
 .header a {
     font-weight: bold;
     color: rgb(37, 109, 177);
     text-decoration: none;
+
 }
 
-.header:hover {
-    transform: scale(1.1);
-}
+.header:hover{
+        transform: scale(1.1);
 
-.head-list {
+    }
+ 
+
+
+.head-list{
     display: flex;
     position: relative;
     font-size: 20px;
     cursor: pointer;
     font-weight: bold;
     list-style: none;
-    gap: 25px;
-    padding: 0;
-    margin: 0;
+    gap: 55px;
+    padding-right: 150px;
     text-decoration: none;
     transition: 0.5s ease;
-    height: auto;
+    height: 50px;
     background-color: transparent;
+
 }
 
-.head-list a {
+.head-list a{
     color: white;
     transition: 0.5s ease;
+     background-color: black;
+    
+}
+
+
+.head-list .active-color{
+    color: rgb(37, 109, 177);
+    border-bottom: 3px solid;
+    background-color: transparent;
+    
+}
+
+
+.head-list a{
     text-decoration: none;
     background-color: transparent;
-    white-space: nowrap;
+    
 }
 
-.head-list .active-color {
-    color: rgb(37, 109, 177);
-    border-bottom: 3px solid;
-    background-color: transparent;
-}
-
-.head-list a:hover {
+.head-list a:hover{
     color: rgb(37, 109, 177);
     border-bottom: 3px solid;
 }
-
 
 @media screen and (max-width: 567px){
    .header{
