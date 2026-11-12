@@ -15,93 +15,75 @@ body{
 }
 
 
-.head-Home{
+.head-Home {
     display: flex;
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
     width: 100%;
+    max-width: 100%;
     gap: 10px;
-    padding-left: 100px;
-    padding-top: 20px;
+    padding: 20px 30px;
     z-index: 100;
-
+    box-sizing: border-box;
 }
 
-
-
-
-.header{
-        cursor: pointer;
-        padding: 10px;
-        font-size: 2rem;
-        transition: 0.5s ease;
-        
+.header {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 2rem;
+    transition: 0.5s ease;
+    white-space: nowrap;
 }
 
-.color-text{
+.color-text {
     color: rgb(37, 109, 177);
-
 }
 
 .header a {
     font-weight: bold;
     color: rgb(37, 109, 177);
     text-decoration: none;
-
 }
 
-.header:hover{
-        transform: scale(1.1);
+.header:hover {
+    transform: scale(1.1);
+}
 
-    }
- 
-
-
-.head-list{
+.head-list {
     display: flex;
     position: relative;
     font-size: 20px;
     cursor: pointer;
     font-weight: bold;
     list-style: none;
-    gap: 55px;
-    padding-right: 150px;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
     text-decoration: none;
     transition: 0.5s ease;
-    height: 50px;
+    height: auto;
     background-color: transparent;
-
 }
 
-.head-list a{
+.head-list a {
     color: white;
     transition: 0.5s ease;
-     background-color: black;
-    
-}
-
-
-.head-list .active-color{
-    color: rgb(37, 109, 177);
-    border-bottom: 3px solid;
-    background-color: transparent;
-    
-}
-
-
-.head-list a{
     text-decoration: none;
     background-color: transparent;
-    
+    white-space: nowrap;
 }
 
-.head-list a:hover{
+.head-list .active-color {
+    color: rgb(37, 109, 177);
+    border-bottom: 3px solid;
+    background-color: transparent;
+}
+
+.head-list a:hover {
     color: rgb(37, 109, 177);
     border-bottom: 3px solid;
 }
-
 
 
 @media screen and (max-width: 567px){
