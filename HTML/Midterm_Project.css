@@ -632,37 +632,43 @@ button:hover{
 .text-footer{
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: rgb(37, 109, 177);
-    padding: 15px 10px;
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+
 }
+
 
 .text-footer p{
     color: white;
     background-color: transparent;
-    margin: 0;
-    text-align: center;
+
 }
 
 .text-footer a{
     background-color: transparent;
     color: white;
     text-decoration: none;
+
 }
+
 
 @media screen and (max-width: 567px){
+
     .text-footer{
+        display: flex;
+        justify-content: center;
         font-size: 8.3px;
         font-weight: bold;
-        width: 400;
+        width: 400px;
         max-width: 100%;
-    }
-}
+        
 
+    }
+
+}
 
 /* About Porject */
 
