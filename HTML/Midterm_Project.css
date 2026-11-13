@@ -635,7 +635,8 @@ button:hover{
     align-items: center;
     background-color: rgb(37, 109, 177);
     padding: 15px 10px;
-    width: 100%;
+    width: 390px;
+    max-width: 100%;
     box-sizing: border-box;
     margin: 0;
 }
