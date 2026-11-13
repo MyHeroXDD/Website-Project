@@ -635,7 +635,7 @@ button:hover{
     align-items: center;
     background-color: rgb(37, 109, 177);
     padding: 15px 10px;
-    width: 390px;
+    width: 100%;
     max-width: 100%;
     box-sizing: border-box;
     margin: 0;
@@ -658,8 +658,11 @@ button:hover{
     .text-footer{
         font-size: 8.3px;
         font-weight: bold;
+        width: 100%;
+        max-width: 100%;
     }
 }
+
 
 /* About Porject */
 
