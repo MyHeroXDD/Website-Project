@@ -630,14 +630,15 @@ button:hover{
 
 
 .text-footer{
-    background-color: rgb(37, 109, 177);
     display: flex;
     justify-content: center;
-    padding: 20px 20px 20px 20px;
+    background-color: rgb(37, 109, 177);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
     
 
 }
-
 
 .text-footer p{
     color: white;
@@ -653,13 +654,13 @@ button:hover{
 }
 
 
+
 @media screen and (max-width: 567px){
 
     .text-footer{
         display: flex;
-        justify-content: start;
-        font-size: 10.3px;
-        white-space: pre;
+        justify-content: center;
+        font-size: 8.3px;
         font-weight: bold;
         width: 400px;
 
@@ -668,6 +669,7 @@ button:hover{
     }
 
 }
+
 
 
 /* About Porject */
