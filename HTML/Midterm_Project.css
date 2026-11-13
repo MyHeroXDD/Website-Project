@@ -128,7 +128,7 @@ body {
    .head-list{
     display: grid;
     position: relative;
-    right: 45px;
+    right: 105px;
     grid-template-rows: 40px;
     gap: 1px;
     width: 100px;
