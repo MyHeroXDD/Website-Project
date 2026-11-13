@@ -658,7 +658,7 @@ button:hover{
     .text-footer{
         font-size: 8.3px;
         font-weight: bold;
-        width: 100%;
+        width: 400;
         max-width: 100%;
     }
 }
