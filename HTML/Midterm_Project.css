@@ -130,11 +130,11 @@ body {
     position: relative;
     right: 20px;
     grid-template-rows: 40px;
-    gap: 5px;
+    gap: 1px;
     width: 100px;
-    height: 20vh;
+    height: 150px;
     padding-left: 10px;
-    padding-top: 15px;
+    padding-top: 1px;
     font-size: 12px;
     background-color: rgb(45, 68, 73);
     border-radius: 20px;
@@ -245,7 +245,7 @@ body {
         width: 250px;
         max-width: 100%;
         height: 200px;
-        margin-left: 70px;
+        margin-left: 90px;
         padding-bottom: 100px;
     }
 
@@ -310,119 +310,77 @@ body {
 
 /* About Section Style */
 
-.about-content{
-    max-width: 100%;
+.about-content {
+  max-width: 100%;
+  padding: 0 20px;
 }
 
-
-.about-me{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    left: 880px;
-    color: rgb(37, 109, 177);
-    font-size: 30px;
-    font-weight: bold;
-    padding-bottom: 3px;
-    padding-top: 10px;
-    width: 200px;
-    margin-bottom: 50px;
-    box-shadow: 0px 2px rgb(37, 109, 177);
-    
-    
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto 50px;
+  padding: 10px 0 3px;
+  color: rgb(37, 109, 177);
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 0 2px rgb(37, 109, 177);
 }
 
-
-.aboutme1{
-    color: white;
-}   
-
-
-
-.about-section{
-    display: flex;
-    position: relative;
+.aboutme1 {
+  margin: 0;
+  color: white;
 }
 
-.img-smile{
-    width: 450px;
-    border-radius: 30px;
-    margin-left: 270px;
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
 }
 
-.about-text{
-    display: flex;
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    padding-bottom: 10px;
-    padding-top: 0px;
-    padding-right: 10px;
-    white-space: pre;
-    color: white;
-    height: 200px;
-    font-size: 12px;
-    font-weight: bold;
-    top: 100px;
-}   
+.img-smile {
+  width: 450px;
+  max-width: 100%;
+  border-radius: 30px;
+}
+
+.about-text {
+  position: relative;
+  right: 150px;
+  max-width: 700px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.6;
+}
 
 
 @media screen and (max-width: 567px) {
-    
-    .about-content{
-        display: grid;
-        margin-bottom: 190px;
-    }
-    
-    .about-me{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 100px;
-        color: rgb(37, 109, 177);
-        font-size: 20px;
-        font-weight: bold;
-        padding-bottom: 3px;
-        padding-top: 10px;
-        width: 200px;
-        margin-top: 90px;
-        margin-bottom: 50px;
-        box-shadow: 0px 2px rgb(37, 109, 177);
-        
-        
-    }
+  .about-content {
+    margin-bottom: 190px;
+  }
 
-    .img-smile{
-        width: 250px;
-        border-radius: 30px;
-        margin-left: 0px;
-        margin-bottom: 300px;
-        position: relative;
-        left: 75px;
-    }
+  .about-me {
+    margin-top: 90px;
+    font-size: 20px;
+  }
 
-   .about-text{
-        display: flex;
-        position: relative;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 0px;
-        padding-bottom: 10px;
-        padding-top: 0px;
-        padding-right: 10px;
-        white-space: pre;
-        color: white;
-        height: 200px;
-        font-size: 12px;
-        font-weight: bold;
-        top: 100px;
-    }
+  .about-section {
+    flex-direction: column;
+  }
 
+  .img-smile {
+    width: 250px;
+  }
 
-  
-
+  .about-text {
+    position: relative;
+    left: 10px;
+    font-size: 12px;
+    max-width: 300px;
+  }
 }
 
 .tech-stacks-content{
@@ -539,6 +497,21 @@ body {
 
     }
     
+
+    .my-tech-stack{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        width: 200px;
+        box-shadow: 0px 2px rgb(37, 109, 177);
+        left: 110px;
+        margin-bottom: 70px;
+    }
+
+    .my-tech-stack .name-stack{
+        font-size: 20px;
+
+    }
 }
 
 
