@@ -733,13 +733,19 @@ button:hover{
 
 @media screen and (max-width: 567px) {
 
+    #head-list2{
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+
     .main-project {
         margin-bottom: 150px;
     }
 
     .name-project {
-        top: 120px;
-        font-size: 16px;
+        top: 155px;
+        font-size: 13px;
     }
 
     .project {
@@ -752,10 +758,10 @@ button:hover{
     }
 
     .img-megaman {
-        width: 100%;
+        width: 500px;
         max-width: 100%;
-        height: 220px;
-        object-fit: cover;
+        height: 200px;
+        
     }
 
     .trailer-name {
@@ -764,5 +770,12 @@ button:hover{
         margin-bottom: 10px;
     }
 
+    .mainbody-message{
+
+        margin-top: 250px;
+
+    }
+
 }
+
 
